@@ -193,8 +193,3 @@ joblib.dump(model,"student_marks_model.pkl")
 print("Scikit-learn version:",sklearn.__version__)
 
 print("Model saved successfully")
-
-from google.colab import files
-
-# Download the trained model
-files.download("student_marks_model.pkl")
